@@ -13,7 +13,7 @@ spec:
          - name: argoapp
            image: nginx
            ports:
-             - containersPort: 80
+             - containerPort: 80
     metadata:
       labels:
         app: ngx
